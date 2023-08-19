@@ -21,13 +21,5 @@ public class MENU : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    public void exit()
-    {
-#if UNITY_EDITOR
-        EditorApplication.ExitPlaymode();
-#endif
-#if PLATFORM_ANDROID
-        Application.Quit();
-#endif
-    }
+   
 }
