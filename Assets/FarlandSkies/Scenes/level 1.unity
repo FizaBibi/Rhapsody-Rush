@@ -2255,7 +2255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9b6081e18dd6a144b933bd80ac4932a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7349586
+      value: -3.06
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9b6081e18dd6a144b933bd80ac4932a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3015,8 +3015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e1bf701e09248fda3806a344d50b5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Singer: {fileID: 1686302589}
-  crowd: {fileID: 706165464}
 --- !u!195 &706165464
 NavMeshAgent:
   m_ObjectHideFlags: 0

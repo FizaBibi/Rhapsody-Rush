@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MENU : MonoBehaviour
+public class MENU1 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,7 +17,7 @@ public class MENU : MonoBehaviour
     {
         
     }
-   public void playgame()
+   public void PlayGame()
     {
         SceneManager.LoadScene(1);
     }
