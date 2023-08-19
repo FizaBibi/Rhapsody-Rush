@@ -3015,6 +3015,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6e1bf701e09248fda3806a344d50b5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Singer: {fileID: 1686302589}
+  crowd: {fileID: 0}
 --- !u!195 &706165464
 NavMeshAgent:
   m_ObjectHideFlags: 0
