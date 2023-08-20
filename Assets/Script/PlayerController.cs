@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private GameObject guitarSpikeBlock;
-
     public void OnClick_Guitar()
     {
         Debug.Log("hahah");
