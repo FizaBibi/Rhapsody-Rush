@@ -9,5 +9,8 @@ public class Spike : MonoBehaviour
         Debug.Log("hehehe " + collision.gameObject.name);
         if (collision.gameObject.CompareTag("enemy"))
             Destroy(collision.gameObject);
+
+        // here
+
     }
 }
