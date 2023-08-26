@@ -6,6 +6,11 @@ using UnityEngine.AI;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private GameObject guitarSpikeBlock;
+
+    private void Start()
+    {
+        Time.timeScale = 1.0f;
+    }
     public void OnClick_Guitar()
     {
         Debug.Log("hahah");
