@@ -5,10 +5,14 @@ using UnityEngine.AI;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject  BgMusic;
+    public GameObject GameOverMusic;
     [SerializeField] private GameObject guitarSpikeBlock;
 
     private void Start()
     {
+        BgMusic.SetActive(true);   
+        GameOverMusic.SetActive(false);
         Time.timeScale = 1.0f;
     }
     public void OnClick_Guitar()

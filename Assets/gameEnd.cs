@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class gameEnd : MonoBehaviour
 {
     public Canvas GameOver;
+    public GameObject BgMusic;
+    public GameObject GameOverMusic;
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +25,11 @@ public class gameEnd : MonoBehaviour
     {
         if(other.CompareTag("enemy"))
         {
+            BgMusic.SetActive(false);
+            GameOverMusic.SetActive(true);
             Time.timeScale = 0f;
             GameOver.gameObject.SetActive(true);
+
         }
     }
 
