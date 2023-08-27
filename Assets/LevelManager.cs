@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(this.transform.childCount<0)
+        if(this.transform.childCount==0)
         {
             Win.SetActive(true);
             GameOver.SetActive(false);
